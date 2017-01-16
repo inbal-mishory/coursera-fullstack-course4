@@ -27,6 +27,8 @@ h1 {
 
 .column p {
   margin-top: 2em;
+  padding: .5em;
+  margin-bottom: 0;
 }
 
 h2 {

@@ -2,3 +2,60 @@ body {
   font-family: Helvetica, Arial, sans-serif;
   font-size: 16px;
 }
+
+h1 {
+  text-align: center;
+}
+
+.container {
+  width: 96vw;
+  padding: .2em;
+}
+.row {
+  width:100%;
+  padding: 0 4%;
+  clear:both;
+}
+.column {
+  width: 30%;
+  float:left;
+  margin-right: 2%;
+  background: #9e9e9e;
+  border:2px solid #000;
+  position: relative;
+}
+
+.column p {
+  margin-top: 2em;
+}
+
+h2 {
+  text-align: center;
+  margin:0;
+  position:absolute;
+  right: 0;
+  border:2px solid #000;
+  border-top:0;
+  border-right:0;
+  width:35%;
+}
+h2.chicken {
+  background: #ba808a;
+}
+h2.beef {
+  background: #6a2e2e;
+  color:#fff;
+}
+h2.sushi {
+  background: #d9d97a;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .column.chicken {width:45%;margin-bottom: 1em;}
+  .column.beef {width:45%}
+  .column.sushi {width:92.5%;margin-right:0}
+  h2.sushi {width: 20%;}
+}
+@media (max-width: 767px) {
+  .column.chicken, .column.beef, .column.sushi {width:92.5%;float:none;margin-bottom: 1em;}
+}

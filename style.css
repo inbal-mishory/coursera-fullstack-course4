@@ -1,4 +1,24 @@
 body {
   font-family: Helvetica, Arial, sans-serif;
   font-size: 16px;
+  margin:0;
+  padding:0;
+}
+
+nav {
+  background: #8ac8ff;
+  width: 100vw;
+  padding: .5em;
+  display: flex;
+  align-items: center;
+}
+
+h1 {
+  margin:0;
+  color: #fff;
+}
+
+main {
+  width: 96vw;
+  margin:0 auto;
 }

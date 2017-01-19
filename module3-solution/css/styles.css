@@ -45,6 +45,7 @@ section#Chicken, section#Beef, section#Sushi {
   padding: .5em;
   border-radius: 1em;
   position: relative;
+  margin-bottom: 2em;
 }
 .column h3 {
   background: #7D7ABC;
